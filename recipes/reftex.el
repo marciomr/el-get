@@ -3,7 +3,7 @@
        :module "reftex"
        :url ":pserver:anonymous@cvs.sv.gnu.org:/sources/auctex"
 ;       :build ("make" "make info")
-       :build "make"
+       :build ("make")
        :features reftex
        :load-path ("lisp")
  ;      :info "doc"
